@@ -1,0 +1,6 @@
+config WORD_COUNT
+    tristate "word_count driver" 
+    default y
+    help
+        This is a word count driver. It can get a word count from /dev/wordcount
+ 

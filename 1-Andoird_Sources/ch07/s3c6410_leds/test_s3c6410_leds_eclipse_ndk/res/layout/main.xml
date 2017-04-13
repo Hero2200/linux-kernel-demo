@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <CheckBox
+            android:id="@+id/checkbox_str_led1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LED1" />
+
+        <CheckBox
+            android:id="@+id/checkbox_str_led2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LED2" />
+
+        <CheckBox
+            android:id="@+id/checkbox_str_led3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LED3" />
+
+        <CheckBox
+            android:id="@+id/checkbox_str_led4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LED4" />
+    </LinearLayout>
+
+    <Button
+        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick_ControlStr"
+        android:text="发送控制字符串" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" android:layout_marginTop="20dp" >
+
+        <CheckBox
+            android:id="@+id/checkbox_cmd_led1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LED1" />
+
+        <CheckBox
+            android:id="@+id/checkbox_cmd_led2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LED2" />
+
+        <CheckBox
+            android:id="@+id/checkbox_cmd_led3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LED3" />
+
+        <CheckBox
+            android:id="@+id/checkbox_cmd_led4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LED4" />
+    </LinearLayout>
+
+    <Button
+        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick_CmdStr"
+        android:text="发送I/O命令" />
+
+</LinearLayout>

@@ -1,0 +1,6 @@
+echo data > /dev/seq_lock &
+# 延迟2秒钟
+sleep 2
+cat /dev/seq_lock
+
+

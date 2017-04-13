@@ -1,0 +1,5 @@
+obj-m := pwm_driver.o
+pwm_driver-objs := pwm.o
+
+
+

@@ -1,0 +1,115 @@
+#include <linux/module.h>
+#include <linux/init.h>
+#include <linux/kernel.h>
+#include <linux/fs.h>
+#include <linux/miscdevice.h>
+#include <asm/uaccess.h>
+#include <asm/atomic.h>  
+#include <linux/delay.h>
+  
+
+//  定义设备文件名
+#define DEVICE_NAME "spin_lock"
+
+static char *data = "read\n";
+static char flag = 1;
+//static spinlock_t lock;
+static DEFINE_SPINLOCK(lock);
+
+static ssize_t demo_read(struct file *file, char __user *buf, size_t count,
+        loff_t *ppos)
+{
+
+	int size = strlen(data);  
+	if (copy_to_user(buf, (void*) data, size))
+	{
+		return -EINVAL;
+	}
+
+	if (flag)
+	{
+		flag = 0;
+
+		if (spin_trylock(&lock))
+		{
+			mdelay(10000);
+			spin_unlock(&lock);
+		}
+		else
+		{
+			return -EBUSY;
+
+		}
+		return size;
+	}
+	else
+	{
+		flag = 1;
+		return 0;
+	}
+}
+
+static ssize_t demo_write(struct file *file, const char __user *buf,
+        size_t count, loff_t *ppos)
+{
+
+	char data[10];
+	memset(data, 0, 10);
+	if (copy_from_user(data, buf, count))
+	{
+		return -EINVAL;
+	}
+
+
+	if (strcmp("lock\n", data) == 0)
+	{
+		spin_lock(&lock);
+		//  临界区
+		spin_unlock(&lock);
+	}
+	else if(strcmp("trylock\n", data) == 0)
+	{
+		if(spin_trylock(&lock))
+		{
+			// 临界区
+			printk("spin lock available.\n");
+			spin_unlock(&lock);
+		}
+		else
+		{
+			printk("spin lock unavailable.\n");
+			return -EBUSY;
+		}
+	}
+	return count;
+}
+static struct file_operations dev_fops =
+{ .owner = THIS_MODULE, .read = demo_read, .write = demo_write };
+
+static struct miscdevice misc =
+{ .minor = MISC_DYNAMIC_MINOR, .name = DEVICE_NAME, .fops = &dev_fops };
+
+//  初始化Linux驱动
+static int __init demo_init(void)
+{
+	//  建立设备文件
+	int ret = misc_register(&misc);
+	//spin_lock_init(&lock);
+
+	printk("demo_init_success\n");
+
+	return ret;
+}
+
+// 卸载Linux驱动
+static void __exit demo_exit(void)
+{
+	printk("demo_exit_success\n");
+	//  删除设备文件
+	misc_deregister(&misc);
+}
+//  注册初始化Linux驱动的函数
+module_init( demo_init);
+//  注册卸载Linux驱动的函数
+module_exit( demo_exit);
+MODULE_LICENSE("GPL");

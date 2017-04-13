@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>spin_lock_eclipse</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.ui.externaltools.ExternalToolBuilder</name>
+			<triggers>full,incremental,</triggers>
+			<arguments>
+				<dictionary>
+					<key>LaunchConfigHandle</key>
+					<value>&lt;project&gt;/.externalToolBuilders/org.eclipse.cdt.managedbuilder.core.genmakebuilder (7).launch</value>
+				</dictionary>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.ui.externaltools.ExternalToolBuilder</name>
+			<triggers>full,incremental,</triggers>
+			<arguments>
+				<dictionary>
+					<key>LaunchConfigHandle</key>
+					<value>&lt;project&gt;/.externalToolBuilders/org.eclipse.cdt.managedbuilder.core.ScannerConfigBuilder (7).launch</value>
+				</dictionary>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.ui.externaltools.ExternalToolBuilder</name>
+			<triggers>full,incremental,</triggers>
+			<arguments>
+				<dictionary>
+					<key>LaunchConfigHandle</key>
+					<value>&lt;project&gt;/.externalToolBuilders/spin_lock_eclipse.launch</value>
+				</dictionary>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.cdt.core.cnature</nature>
+		<nature>org.eclipse.cdt.managedbuilder.core.managedBuildNature</nature>
+		<nature>org.eclipse.cdt.managedbuilder.core.ScannerConfigNature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>src/rw_lock.c</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/rw_lock.c</locationURI>
+		</link>
+		<link>
+			<name>src/seq_lock.c</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/seq_lock.c</locationURI>
+		</link>
+		<link>
+			<name>src/spin_lock.c</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/spin_lock.c</locationURI>
+		</link>
+		<link>
+			<name>src/test_rw_lock.c</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/test_rw_lock.c</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>

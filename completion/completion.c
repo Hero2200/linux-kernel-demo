@@ -1,21 +1,3 @@
-/*
- * =====================================================================================
- *
- *       Filename:  demo.c
- *
- *    Description:  
- *
- *        Version:  1.0
- *        Created:  2017年04月10日 23时10分45秒
- *       Revision:  none
- *       Compiler:  gcc
- *
- *         Author:  YOUR NAME (), 
- *   Organization:  
- *
- * =====================================================================================
- */
-
 #include <linux/module.h>
 #include <linux/init.h>
 #include <linux/kernel.h>
@@ -56,7 +38,8 @@ static ssize_t demo_write(struct file *filp, const char *buf, size_t count,
     return count;
 }
 
-static struct file_operations fops = {
+static struct file_operations dev_fops =
+{
     .owner = THIS_MODULE,
     .read = demo_read,
     .write = demo_write,
@@ -65,7 +48,7 @@ static struct file_operations fops = {
 static struct miscdevice misc = {
     .minor = MISC_DYNAMIC_MINOR,
     .name = DEVICE_NAME,
-    .fops = &fops,
+    .fops = &dev_fops,
 };
 
 static int __init demo_init(void)
@@ -73,6 +56,7 @@ static int __init demo_init(void)
     int ret;
     printf ( "demo_init register misc\n" );
     ret = misc_register(&misc);
+	init_completion(&my_completion);
 
     return ret;
 }

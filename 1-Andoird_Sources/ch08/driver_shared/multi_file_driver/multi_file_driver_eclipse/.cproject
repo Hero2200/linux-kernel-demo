@@ -1,0 +1,833 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?>
+
+<cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="cdt.managedbuild.config.gnu.cross.exe.debug.1298837169">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.gnu.cross.exe.debug.1298837169" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug,org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.cross.exe.debug.1298837169" name="Debug" parent="cdt.managedbuild.config.gnu.cross.exe.debug">
+					<folderInfo id="cdt.managedbuild.config.gnu.cross.exe.debug.1298837169." name="/" resourcePath="">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.cross.exe.debug.1195476275" name="Cross GCC" superClass="cdt.managedbuild.toolchain.gnu.cross.exe.debug">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="cdt.managedbuild.targetPlatform.gnu.cross.568628766" isAbstract="false" osList="all" superClass="cdt.managedbuild.targetPlatform.gnu.cross"/>
+							<builder buildPath="${workspace_loc:/multi_file_driver_eclipse/Debug}" id="cdt.managedbuild.builder.gnu.cross.1635298663" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="cdt.managedbuild.builder.gnu.cross"/>
+							<tool id="cdt.managedbuild.tool.gnu.cross.c.compiler.1511305691" name="Cross GCC Compiler" superClass="cdt.managedbuild.tool.gnu.cross.c.compiler">
+								<option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.option.optimization.level.1259785653" name="Optimization Level" superClass="gnu.c.compiler.option.optimization.level" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.debugging.level.1130948284" name="Debug Level" superClass="gnu.c.compiler.option.debugging.level" value="gnu.c.debugging.level.max" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.include.paths.1142730523" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="/root/kernel/goldfish/include"/>
+									<listOptionValue builtIn="false" value="/root/kernel/goldfish/arch/arm/include"/>
+									<listOptionValue builtIn="false" value="/root/kernel/linux_kernel_2.6.36/arch/arm/mach-s3c64xx/include"/>
+									<listOptionValue builtIn="false" value="/root/kernel/linux_kernel_2.6.36/arch/arm/plat-samsung/include"/>
+								</option>
+								<option id="gnu.c.compiler.option.preprocessor.def.symbols.100768852" name="Defined symbols (-D)" superClass="gnu.c.compiler.option.preprocessor.def.symbols" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="__KERNEL__=1"/>
+									<listOptionValue builtIn="false" value="AUTOCONF_INCLUDED"/>
+									<listOptionValue builtIn="false" value="CONFIG_RING_BUFFER=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_SCSI_DMA=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_KERNEL_GZIP=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_INPUT_KEYBOARD=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_KPROBE_EVENT=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_CRC32=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_I2C_BOARDINFO=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_HAVE_AOUT=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_VFP=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_IR_JVC_DECODER=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_AEABI=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_CPU_S3C6400=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_FLATMEM_MANUAL=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_BT_RFCOMM=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_ANDROID_RAM_CONSOLE_ERROR_CORRECTION_DATA_SIZE=128"/>
+									<listOptionValue builtIn="false" value="CONFIG_INOTIFY_USER=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_VIDEO_V4L1=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_NETWORK_FILESYSTEMS=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_BT_HCIBFUSB=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_NET_ETHERNET=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_EXPERIMENTAL=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_PPP_SYNC_TTY=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_ARCH_SUSPEND_POSSIBLE=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_ARM_UNWIND=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_SSB_POSSIBLE=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_MTD_CMDLINE_PARTS=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_USB_OHCI_LITTLE_ENDIAN=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_FSNOTIFY=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_HAVE_KERNEL_LZMA=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_DEFAULT_SECURITY_DAC=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_BT_MRVL_SDIO=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_BT_HCIBPA10X=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_CRYPTO_AEAD=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_DEFAULT_TCP_CONG=&quot;cubic&quot;"/>
+									<listOptionValue builtIn="false" value="CONFIG_UEVENT_HELPER_PATH=&quot;&quot;"/>
+									<listOptionValue builtIn="false" value="CONFIG_USB_DEVICEFS=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_DEVTMPFS=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_ANDROID_BINDER_IPC=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_S3C_GPIO_CFG_S3C24XX=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_IR_NEC_DECODER=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_WLAN=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_NAMESPACES=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_VIDEO_TV=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_FB_S3C_EXT=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_S3C_DEV_RTC=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_ATAGS_PROC=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_SERIAL_SAMSUNG=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_CRYPTO_RNG2=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_USB_PWC_INPUT_EVDEV=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_MSDOS_FS=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_USB_IBMCAM=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_CFG80211=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_REED_SOLOMON_ENC8=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_HAVE_PROC_CPU=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_LZO_DECOMPRESS=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_HID_BELKIN=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_CPU_32v6=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_NFSD=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_WIRELESS_EXT_SYSFS=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_RD_LZMA=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_USB=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_CRYPTO_HMAC=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_BRANCH_PROFILE_NONE=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_CRC_ITU_T=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_FRAMEBUFFER_CONSOLE=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_SND_SEQUENCER=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_HID_CHERRY=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_FORCE_MAX_ZONEORDER=11"/>
+									<listOptionValue builtIn="false" value="CONFIG_MTD_PARTITIONS=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_SND_SOC=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_MEDIA_TUNER_XC5000=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_PRINTK=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_TIMERFD=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_DNS_RESOLVER=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_TRACEPOINTS=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_MTD_CFI_I2=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_CRYPTO_AUTHENC=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_BOUNCE=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_SHMEM=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_MTD=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_DECOMPRESS_LZMA=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_DEVTMPFS_MOUNT=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_INPUT_MOUSEDEV=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_CRYPTO_DES=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_NLS_CODEPAGE_437=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_TOUCHSCREEN_S3C=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_MTD_NAND_IDS=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_EXPORTFS=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_SND_MIXER_OSS=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_SERIO=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_VIDEO_TVEEPROM=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_CPU_PABRT_V6=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_SUNRPC_GSS=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_RTC_INTF_SYSFS=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_BLK_DEV_INITRD=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_BT_ATH3K=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_EXTRA_FIRMWARE_DIR=&quot;firmware&quot;"/>
+									<listOptionValue builtIn="false" value="CONFIG_MTD_NAND_PLATFORM=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_SND_S3C_SOC_AC97=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_SND_OSSEMUL=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_ZLIB_INFLATE=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_CRC_T10DIF=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_IP_PNP=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_USB_VIDEO_CLASS=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_RTC_INTF_PROC=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_S3C_DMA=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_STACKTRACE_SUPPORT=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_S3C_DEV_FB=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_MTD_NAND_S3C_HWECC=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_USB_DEVICE_CLASS=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_LOCKD=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_SOUND_OSS_CORE=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_USB_SN9C102=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_ANDROID_TIMED_GPIO=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_LIBERTAS=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_ARM=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_ARM_L1_CACHE_SHIFT=5"/>
+									<listOptionValue builtIn="false" value="CONFIG_BT_RFCOMM_TTY=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_RPCSEC_GSS_KRB5=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_VIDEOBUF_VMALLOC=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_HAS_WAKELOCK=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_USB_STORAGE=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_IR_LIRC_CODEC=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_CONSOLE_EARLYSUSPEND=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_ARCH_HAS_CPUFREQ=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_MTD_NAND_S3C=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_VIDEO_CX231XX=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_ASHMEM=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_BLOCK=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_HAVE_IDE=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_HID_APPLE=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_INIT_ENV_ARG_LIMIT=32"/>
+									<listOptionValue builtIn="false" value="CONFIG_GENERIC_GPIO=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_ROOT_NFS=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_SND_PCM_XRUN_DEBUG=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_VIDEO_CX231XX_ALSA=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_TMPFS_POSIX_ACL=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_BUG=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_CONTEXT_SWITCH_TRACER=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_MAC80211_HAS_RC=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_PM=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_SWITCH=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_PPP_DEFLATE=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_VT=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_SPLIT_PTLOCK_CPUS=4"/>
+									<listOptionValue builtIn="false" value="CONFIG_BT_SCO=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_POWER_SUPPLY=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_CPU_CACHE_VIPT=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_V4L_USB_DRIVERS=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_WEXT_CORE=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_VIDEO_WM8775=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_NLS=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_SND_VERBOSE_PRINTK=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_PPPOE=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_REED_SOLOMON_DEC8=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_ANDROID_RAM_CONSOLE_ERROR_CORRECTION_ECC_SIZE=16"/>
+									<listOptionValue builtIn="false" value="CONFIG_VIDEO_USBVISION=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_PLAT_S3C64XX=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_ARCH_S3C64XX=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_S3C_DEV_HSMMC=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_EVENT_TRACING=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_HID_CYPRESS=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_VIDEO_SAA711X=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_S3C64XX_SETUP_I2C0=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_NLS_ISO8859_1=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_CRYPTO_WORKQUEUE=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_HID_KENSINGTON=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_PPP_MPPE=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_SND_PCM_OSS=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_RFKILL=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_NETDEVICES=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_FB_S3C_EXT_NUM=4"/>
+									<listOptionValue builtIn="false" value="CONFIG_IOSCHED_DEADLINE=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_CPU_S3C6410=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_EVENTFD=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_SAMSUNG_DEV_ADC=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_FS_POSIX_ACL=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_XFRM=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_DEFCONFIG_LIST=&quot;/lib/modules/$UNAME_RELEASE/.config&quot;"/>
+									<listOptionValue builtIn="false" value="CONFIG_USB_ANNOUNCE_NEW_DEVICES=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_VIDEO_IR=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_PROC_PAGE_MONITOR=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_S3C64XX_SETUP_SDHCI_GPIO=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_USB_VIDEO_CLASS_INPUT_EVDEV=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_DYNAMIC_TIMER=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_RD_LZO=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_PERF_COUNTERS=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_ANDROID_LOW_MEMORY_KILLER=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_SCSI_WAIT_SCAN_MODULE=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_SND_SOC_AC97_BUS=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_RT2X00_LIB_USB=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_SELECT_MEMORY_MODEL=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_INET_XFRM_MODE_BEET=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_CPU_COPY_V6=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_NETFILTER_ADVANCED=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_CRYPTO_DEFLATE_MODULE=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_SND_SOC_WM9713=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_VIDEO_FIMC=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_MAGIC_SYSRQ=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_VIDEO_PVRUSB2_SYSFS=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_MAC80211_RC_DEFAULT_MINSTREL=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_SECURITYFS=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_DEFAULT_CFQ=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_MEDIA_SUPPORT=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_DEBUG_BUGVERBOSE=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_VIDEO_ALLOW_V4L1=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_CPU_V6=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_FAT_FS=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_HIGHMEM=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_MMC_BLOCK_BOUNCE=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_GENERIC_CLOCKEVENTS=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_IOSCHED_CFQ=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_GENERIC_FIND_LAST_BIT=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_LIB80211=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_RTC_DRV_S3C=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_CPU_CP15_MMU=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_RFKILL_LEDS=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_CONSOLE_TRANSLATIONS=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_LIBERTAS_SDIO=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_VIDEO_FIMC_DEBUG=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_VIDEO_V4L1_COMPAT=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_USB_OHCI_HCD=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_USB_GSPCA=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_DUMMY_CONSOLE=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_NLS_ASCII=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_TRACE_IRQFLAGS_SUPPORT=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_NFS_V3_ACL=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_USB_S2255=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_LEDS_TRIGGERS=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_SND_USB=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_RD_GZIP=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_HAVE_REGS_AND_STACK_ACCESS_API=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_TREE_RCU=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_LBDAF=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_INET_XFRM_MODE_TRANSPORT=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_CRYPTO_MD5=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_VIDEO_CS53L32A=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_NFSD_V3=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_PM_OPS=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_SND_DEBUG_VERBOSE=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_MEDIA_TUNER_TEA5767=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_OABI_COMPAT=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_USB_ANDROID_ADB=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_BINFMT_ELF=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_SCSI_PROC_FS=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_HOTPLUG=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_CPU_CP15=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_USB_ANDROID=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_USB_SERIAL=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_KEYS=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_SLABINFO=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_MAC80211_RC_MINSTREL_HT=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_HARDIRQS_SW_RESEND=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_BT_HCIBCM203X=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_MAC80211_LEDS=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_EARLYSUSPEND=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_CRC16=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_DEBUG_SHIRQ=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_SAMSUNG_DEV_KEYPAD=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_GENERIC_CALIBRATE_DELAY=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_CPU_HAS_PMU=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_BROKEN_ON_SMP=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_ARCH_REQUIRE_GPIOLIB=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_TMPFS=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_HOSTAP=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_ANON_INODES=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_VIDEO_EM28XX=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_NLS_CODEPAGE_936=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_USB_S3C_HSOTG=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_FUTEX=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_IP_PNP_DHCP=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_NFSD_V2_ACL=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_VMSPLIT_3G=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_RTC_HCTOSYS=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_SERIAL_CORE_CONSOLE=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_USB_HID=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_ANDROID=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_SLUB_DEBUG=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_LIB80211_DEBUG=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_FORLINX6410_BUZZER=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_SYSVIPC=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_CRYPTO_PCOMP2=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_RT2X00=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_KEYBOARD_GPIO=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_MODULES=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_CPU_HAS_ASID=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_USB_GADGET=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_VIDEO_EM28XX_ALSA=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_SOUND=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_MEDIA_TUNER_TDA9887=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_S3C_BOOT_UART_FORCE_FIFO=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_UNIX=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_YAFFS_YAFFS1=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_HAVE_CLK=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_CRYPTO_HASH2=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_S3C64XX_SETUP_KEYPAD=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_NFS_FS=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_CRYPTO_ALGAPI=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_MEDIA_TUNER=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_MISC_DEVICES=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_RD_BZIP2=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_MEDIA_TUNER_SIMPLE=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_MTD_CFI_I1=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_BLK_DEV_INTEGRITY=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_NFS_COMMON=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_CRYPTO_HASH=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_LOG_BUF_SHIFT=17"/>
+									<listOptionValue builtIn="false" value="CONFIG_EXTRA_FIRMWARE=&quot;sd8686_helper.bin"/>
+									<listOptionValue builtIn="false" value="CONFIG_VIRT_TO_BUS=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_VFAT_FS=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_S3C_GPIO_CFG_S3C64XX=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_PID_NS=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_KEXEC=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_VIDEO_HDPVR=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_WAKELOCK=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_MEDIA_TUNER_XC2028=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_PLAT_SAMSUNG=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_SUSPEND=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_MTD_NAND_ECC=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_CRYPTO_CBC=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_KPROBES=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_RTC_CLASS=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_CRC7_MODULE=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_HAVE_LATENCYTOP_SUPPORT=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_YAFFS_AUTO_YAFFS2=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_HAVE_FUNCTION_TRACER=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_SERIAL_SAMSUNG_UARTS_4=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_NO_IOPORT=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_NFSD_V4=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_S3C_DEV_HSMMC1=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_CRYPTO_MANAGER2=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_USB_GADGET_VBUS_DRAW=500"/>
+									<listOptionValue builtIn="false" value="CONFIG_SLUB=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_S3C_DEV_I2C1=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_PM_SLEEP=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_I2C=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_PPP_MULTILINK=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_VIDEO_CX25840=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_BT_HIDP=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_IR_CORE=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_VM_EVENT_COUNTERS=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_CRYPTO_ECB=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_DEBUG_FS=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_BASE_FULL=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_FB_CFB_IMAGEBLIT=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_ZLIB_DEFLATE=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_SUNRPC=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_YAFFS_FS=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_VIDEO_SAMSUNG=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_FW_LOADER=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_KALLSYMS=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_RTC_HCTOSYS_DEVICE=&quot;rtc0&quot;"/>
+									<listOptionValue builtIn="false" value="CONFIG_USB_KONICAWC=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_MII=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_SIGNALFD=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_S3C_DEV_NAND=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_KRETPROBES=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_CRYPTO_SHA1=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_ARM_DMA_MEM_BUFFERABLE=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_LOCKD_V4=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_USB_GADGET_DUALSPEED=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_HAS_IOMEM=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_RING_BUFFER_ALLOW_SWAP=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_USB_ANDROID_MASS_STORAGE=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_GENERIC_IRQ_PROBE=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_MTD_MAP_BANK_WIDTH_1=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_MACH_SMDK6410=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_CONSTRUCTORS=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_EPOLL=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_SND_PCM=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_RT2X00_DEBUG=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_BT_BNEP_MC_FILTER=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_S3C_GPIO_TRACK=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_IR_SONY_DECODER=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_VIDEO_PVRUSB2=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_NET=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_INPUT_EVDEV=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_SND_JACK=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_VIDEO_SAMSUNG_MEMSIZE_TV=8192"/>
+									<listOptionValue builtIn="false" value="CONFIG_VIDEO_FIMC_CAM_CH=0"/>
+									<listOptionValue builtIn="false" value="CONFIG_PACKET=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_MODULE_SRCVERSION_ALL=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_NFS_V3=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_NOP_TRACER=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_INET=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_IP_PNP_BOOTP=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_FREEZER=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_BT=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_BT_HCIVHCI=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_RFKILL_PM=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_FB_S3C_EXT_BPP=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_REED_SOLOMON=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_RTC_LIB=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_HAVE_KPROBES=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_CRYPTO_AES=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_GPIOLIB=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_SSB=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_S3C64XX_SETUP_FIMC0=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_CPU_TLB_V6=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_SND_ARM=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_LIBERTAS_DEBUG=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_NETFILTER=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_SERIO_SERPORT_MODULE=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_S3C_DEV_USB_HOST=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_LIRC=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_BT_BNEP=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_DM9000_DEBUGLEVEL=4"/>
+									<listOptionValue builtIn="false" value="CONFIG_INET_XFRM_MODE_TUNNEL=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_USB_VICAM=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_SND_DRIVERS=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_LOCKDEP_SUPPORT=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_SERIAL_SAMSUNG_UARTS=4"/>
+									<listOptionValue builtIn="false" value="CONFIG_NO_HZ=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_RTC_INTF_ALARM=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_GENERIC_HARDIRQS_NO__DO_IRQ=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_ARM_VIC=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_MTD_BLKDEVS=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_VIDEO_CAPTURE_DRIVERS=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_SND_PCM_OSS_PLUGINS=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_SYSCTL_SYSCALL=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_I2C_S3C2410=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_INPUT_MOUSEDEV_SCREEN_X=1024"/>
+									<listOptionValue builtIn="false" value="CONFIG_NEED_DMA_MAP_STATE=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_ANDROID_PARANOID_NETWORK=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_PAGE_OFFSET=0xC0000000"/>
+									<listOptionValue builtIn="false" value="CONFIG_FONT_8x8=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_LOCK_KERNEL=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_PANIC_TIMEOUT=0"/>
+									<listOptionValue builtIn="false" value="CONFIG_ZBOOT_ROM_BSS=0x0"/>
+									<listOptionValue builtIn="false" value="CONFIG_RT2X00_LIB=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_CFG80211_DEFAULT_PS=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_RT2X00_LIB_FIRMWARE=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_SAMSUNG_WAKEMASK=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_HAVE_KERNEL_GZIP=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_S3C64XX_SETUP_SDHCI=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_ANDROID_TIMED_OUTPUT=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_LIBCRC32C_MODULE=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_INET_TCP_DIAG=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_HW_CONSOLE=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_DEVMEM=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_HID_MONTEREY=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_HID_EZKEY=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_IOSCHED_NOOP=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_ARM_ERRATA_411920=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_SAMSUNG_CLKSRC=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_BT_MRVL=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_SAMSUNG_DEV_IDE=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_GENERIC_ACL=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_DEBUG_KERNEL=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_VIDEO_CX2341X=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_USB_GADGET_S3C_HSOTG=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_LOCALVERSION=&quot;&quot;"/>
+									<listOptionValue builtIn="false" value="CONFIG_CRYPTO=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_SCHED_DEBUG=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_USB_STKWEBCAM=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_DEFAULT_MMAP_MIN_ADDR=4096"/>
+									<listOptionValue builtIn="false" value="CONFIG_CMDLINE=&quot;console=ttySAC0"/>
+									<listOptionValue builtIn="false" value="CONFIG_BT_BNEP_PROTO_FILTER=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_S3C64XX_DMA=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_HW_PERF_EVENTS=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_USB_ARCH_HAS_HCD=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_ALIGNMENT_TRAP=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_DM9000=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_SCSI_MOD=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_SERIAL_SAMSUNG_CONSOLE=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_OPROFILE_MODULE=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_CRYPTO_CRC32C_MODULE=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_SERIAL_CORE=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_UID16=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_DEBUG_PREEMPT=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_HID_MICROSOFT=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_HAVE_KRETPROBES=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_SAMSUNG_IRQ_UART=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_S3C64XX_DEV_FIMC0=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_VIDEO_DEV=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_NFS_V4=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_PPP_FILTER=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_SOUND_PRIME=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_HAS_DMA=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_BT_L2CAP=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_SCSI=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_FB_CFB_FILLRECT=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_SAMSUNG_GPIO_EXTRA=0"/>
+									<listOptionValue builtIn="false" value="CONFIG_HID_CHICONY=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_HID=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_FONT_8x16=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_SMDK6410_SD_CH0=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_USB_PWC=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_MEDIA_TUNER_TDA8290=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_ANDROID_RAM_CONSOLE=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_LOCALVERSION_AUTO=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_MEDIA_TUNER_MT20XX=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_IPC_NS=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_MISC_FILESYSTEMS=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_FTRACE=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_DECOMPRESS_BZIP2=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_HID_A4TECH=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_MEDIA_TUNER_MC44S803=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_USB_ZR364XX=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_SND_VERBOSE_PROCFS=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_CHR_DEV_SG=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_SAMSUNG_DEV_TS=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_YAFFS_YAFFS2=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_S3C64XX_SETUP_IDE=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_PROFILING=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_CRYPTO_ARC4=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_SLHC=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_CRYPTO_MANAGER=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_PPP_BSDCOMP=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_MTD_NAND=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_RT_MUTEXES=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_VECTORS_BASE=0xffff0000"/>
+									<listOptionValue builtIn="false" value="CONFIG_MMC_BLOCK=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_WIRELESS=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_WEXT_PROC=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_BT_HCIBTUSB=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_PERF_USE_VMALLOC=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_FAT_DEFAULT_IOCHARSET=&quot;utf8&quot;"/>
+									<listOptionValue builtIn="false" value="CONFIG_FRAME_WARN=1024"/>
+									<listOptionValue builtIn="false" value="CONFIG_MACH_SMDK6400=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_GENERIC_HWEIGHT=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_INITRAMFS_SOURCE=&quot;&quot;"/>
+									<listOptionValue builtIn="false" value="CONFIG_MMC=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_HID_LOGITECH=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_STACKTRACE=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_VIDEO_TUNER=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_USB_DEBUG=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_SND_DEBUG=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_DCB=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_HZ=100"/>
+									<listOptionValue builtIn="false" value="CONFIG_I2C_HELPER_AUTO=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_CPU_CACHE_V6=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_SND_S3C24XX_SOC=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_DEFAULT_IOSCHED=&quot;cfq&quot;"/>
+									<listOptionValue builtIn="false" value="CONFIG_NLATTR=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_TCP_CONG_CUBIC=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_S3C_DEV_USB_HSOTG=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_SUSPEND_FREEZER=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_MMC_SDHCI=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_SND_SUPPORT_OLD_API=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_HID_KYE=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_FIRMWARE_IN_KERNEL=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_SYSFS=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_LIB80211_CRYPT_WEP=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_INPUT_TOUCHSCREEN=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_CPU_ABRT_EV6=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_ARM_THUMB=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_CC_STACKPROTECTOR=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_FB=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_TRACING=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_I2C_COMPAT=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_NFSD_V3_ACL=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_MSDOS_PARTITION=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_HAVE_OPROFILE=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_HAVE_GENERIC_DMA_COHERENT=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_IP_PNP_RARP=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_HAVE_S3C2410_WATCHDOG=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_HAVE_ARCH_KGDB=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_IP_FIB_HASH=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_USB_ARCH_HAS_OHCI=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_ZONE_DMA_FLAG=0"/>
+									<listOptionValue builtIn="false" value="CONFIG_FB_S3C_EXT_DOUBLE_BUFFERING=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_MTD_MAP_BANK_WIDTH_2=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_MMC_SDHCI_S3C=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_VIDEO_MEDIA=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_WAKELOCK_STAT=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_HAS_EARLYSUSPEND=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_CPU_32v6K=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_DEFAULT_SECURITY=&quot;&quot;"/>
+									<listOptionValue builtIn="false" value="CONFIG_TICK_ONESHOT=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_WIRELESS_EXT=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_VIDEO_FIXED_MINOR_RANGES=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_ANDROID_LOGGER=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_ANDROID_RAM_CONSOLE_ERROR_CORRECTION_POLYNOMIAL=0x11d"/>
+									<listOptionValue builtIn="false" value="CONFIG_MODVERSIONS=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_RWSEM_GENERIC_SPINLOCK=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_DEBUG_S3C_UART=0"/>
+									<listOptionValue builtIn="false" value="CONFIG_RT2X00_LIB_CRYPTO=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_BASE_SMALL=0"/>
+									<listOptionValue builtIn="false" value="CONFIG_CRYPTO_BLKCIPHER2=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_SND_SEQ_DUMMY=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_TE6410_LEDS=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_PROC_FS=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_MTD_BLOCK=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_RC_MAP=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_WEXT_PRIV=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_SCSI_LOWLEVEL=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_SND=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_FB_S3C_EXT_TFT480272=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_FLATMEM=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_IR_RC6_DECODER=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_VIDEO_MSP3400=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_S3C_GPIO_PULL_UPDOWN=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_MMC_DEBUG=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_PAGEFLAGS_EXTENDED=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_S3C64XX_SETUP_FIMC1=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_RFKILL_INPUT=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_S3C64XX_SETUP_FB_24BPP=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_NFS_USE_KERNEL_DNS=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_SUSPEND_NVS=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_SYSCTL=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_FB_S3C_EXT_BPP_16=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_USB_SE401=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_HAVE_PERF_EVENTS=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_PPP_ASYNC=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_SSB_SDIOHOST_POSSIBLE=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_CRAMFS=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_UID_STAT=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_DEBUG_MEMORY_INIT=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_SYS_SUPPORTS_APM_EMULATION=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_RTC_INTF_ALARM_DEV=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_S3C_GPIO_SPACE=0"/>
+									<listOptionValue builtIn="false" value="CONFIG_SND_SOC_SMDK_WM9713=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_SND_TIMER=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_FAT_DEFAULT_CODEPAGE=936"/>
+									<listOptionValue builtIn="false" value="CONFIG_MAC80211_RC_DEFAULT=&quot;minstrel_ht&quot;"/>
+									<listOptionValue builtIn="false" value="CONFIG_NFS_ACL_SUPPORT=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_TRACING_SUPPORT=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_UNIX98_PTYS=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_CRYPTO_MICHAEL_MIC=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_SERIAL_S3C6400=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_INPUT_MOUSEDEV_SCREEN_Y=768"/>
+									<listOptionValue builtIn="false" value="CONFIG_PPP=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_HAVE_KERNEL_LZO=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_INET_DIAG=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_MAC80211_RC_MINSTREL=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_ELF_CORE=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_USB_SUPPORT=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_ANDROID_RAM_CONSOLE_ERROR_CORRECTION_SYMBOL_SIZE=8"/>
+									<listOptionValue builtIn="false" value="CONFIG_STAGING=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_MTD_CHAR=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_INET_LRO=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_FLAT_NODE_MEM_MAP=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_VT_CONSOLE=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_CFG80211_WEXT=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_ARM_VIC_NR=2"/>
+									<listOptionValue builtIn="false" value="CONFIG_IR_RC5_DECODER=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_UNUSED_SYMBOLS=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_PREEMPT=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_FB_CFB_COPYAREA=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_RT73USB=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_BINARY_PRINTF=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_GENERIC_CLOCKEVENTS_BUILD=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_USB_STORAGE_DEBUG=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_VIDEOBUF_GEN=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_HIGHPTE=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_VIDEO_V4L2=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_S3C64XX_SETUP_I2C1=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_AC97_BUS=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_SYSVIPC_SYSCTL=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_S3C_LOWLEVEL_UART_PORT=0"/>
+									<listOptionValue builtIn="false" value="CONFIG_VIDEO_FIMC_CAM_RESET=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_DECOMPRESS_GZIP=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_DECOMPRESS_LZO=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_I2C_CHARDEV=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_CROSS_COMPILE=&quot;arm-none-linux-gnueabi-&quot;"/>
+									<listOptionValue builtIn="false" value="CONFIG_MEDIA_TUNER_TEA5761=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_USB_GADGET_SELECTED=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_LIB80211_CRYPT_CCMP=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_NFS_V4_1=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_NLS_UTF8=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_USB_SERIAL_PL2303=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_ANDROID_RAM_CONSOLE_ERROR_CORRECTION=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_NEW_LEDS=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_SWAP=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_MAC80211=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_OV965X=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_CRC_CCITT=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_ANDROID_PMEM=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_BLK_DEV_SD=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_MODULE_UNLOAD=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_S3C64XX_DEV_FIMC1=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_VIDEO_SAMSUNG_MEMSIZE_FIMC=10240"/>
+									<listOptionValue builtIn="false" value="CONFIG_AD525X_DPOT=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_SAMSUNG_GPIOLIB_4BIT=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_RCU_FANOUT=32"/>
+									<listOptionValue builtIn="false" value="CONFIG_OV965X_QVGA=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_BITREVERSE=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_VIDEO_V4L2_COMMON=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_CRYPTO_BLKCIPHER=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_FILE_LOCKING=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_S3C_DEV_WDT=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_SND_SOC_I2C_AND_SPI=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_AIO=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_VIDEO_USBVIDEO=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_PERF_EVENTS=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_GENERIC_HARDIRQS=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_SYSCTL_SYSCALL_CHECK=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_RTC_INTF_DEV=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_SAMSUNG_IRQ_VIC_TIMER=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_MTD_MAP_BANK_WIDTH_4=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_HID_SUPPORT=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_LIB80211_CRYPT_TKIP=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_MTD_NAND_S3C_DEBUG=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_NET_ACTIVITY_STATS=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_NLS_DEFAULT=&quot;iso8859-1&quot;"/>
+									<listOptionValue builtIn="false" value="CONFIG_UTS_NS=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_HAVE_S3C2410_I2C=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_CRYPTO_AEAD2=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_CRYPTO_ALGAPI2=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_WEXT_SPY=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_ZBOOT_ROM_TEXT=0x0"/>
+									<listOptionValue builtIn="false" value="CONFIG_HAVE_MEMBLOCK=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_INPUT=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_PROC_SYSCTL=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_MMU=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_USER_WAKELOCK=1"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1422381322" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.cross.cpp.compiler.1797252239" name="Cross G++ Compiler" superClass="cdt.managedbuild.tool.gnu.cross.cpp.compiler">
+								<option id="gnu.cpp.compiler.option.optimization.level.1127273989" name="Optimization Level" superClass="gnu.cpp.compiler.option.optimization.level" value="gnu.cpp.compiler.optimization.level.none" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.debugging.level.2142696189" name="Debug Level" superClass="gnu.cpp.compiler.option.debugging.level" value="gnu.cpp.compiler.debugging.level.max" valueType="enumerated"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.cross.c.linker.1126760244" name="Cross GCC Linker" superClass="cdt.managedbuild.tool.gnu.cross.c.linker">
+								<inputType id="cdt.managedbuild.tool.gnu.c.linker.input.300982641" superClass="cdt.managedbuild.tool.gnu.c.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.cross.cpp.linker.267101597" name="Cross G++ Linker" superClass="cdt.managedbuild.tool.gnu.cross.cpp.linker"/>
+							<tool id="cdt.managedbuild.tool.gnu.cross.archiver.1574400414" name="Cross GCC Archiver" superClass="cdt.managedbuild.tool.gnu.cross.archiver"/>
+							<tool id="cdt.managedbuild.tool.gnu.cross.assembler.175214615" name="Cross GCC Assembler" superClass="cdt.managedbuild.tool.gnu.cross.assembler">
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.1489502715" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="cdt.managedbuild.config.gnu.cross.exe.release.1992942964">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.gnu.cross.exe.release.1992942964" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release,org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.cross.exe.release.1992942964" name="Release" parent="cdt.managedbuild.config.gnu.cross.exe.release">
+					<folderInfo id="cdt.managedbuild.config.gnu.cross.exe.release.1992942964." name="/" resourcePath="">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.cross.exe.release.1910728122" name="Cross GCC" superClass="cdt.managedbuild.toolchain.gnu.cross.exe.release">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="cdt.managedbuild.targetPlatform.gnu.cross.377087245" isAbstract="false" osList="all" superClass="cdt.managedbuild.targetPlatform.gnu.cross"/>
+							<builder buildPath="${workspace_loc:/multi_file_driver_eclipse/Release}" id="cdt.managedbuild.builder.gnu.cross.1379752140" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="cdt.managedbuild.builder.gnu.cross"/>
+							<tool id="cdt.managedbuild.tool.gnu.cross.c.compiler.923624830" name="Cross GCC Compiler" superClass="cdt.managedbuild.tool.gnu.cross.c.compiler">
+								<option defaultValue="gnu.c.optimization.level.most" id="gnu.c.compiler.option.optimization.level.1247936887" name="Optimization Level" superClass="gnu.c.compiler.option.optimization.level" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.debugging.level.995579637" name="Debug Level" superClass="gnu.c.compiler.option.debugging.level" value="gnu.c.debugging.level.none" valueType="enumerated"/>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.734025303" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.cross.cpp.compiler.794127812" name="Cross G++ Compiler" superClass="cdt.managedbuild.tool.gnu.cross.cpp.compiler">
+								<option id="gnu.cpp.compiler.option.optimization.level.731407214" name="Optimization Level" superClass="gnu.cpp.compiler.option.optimization.level" value="gnu.cpp.compiler.optimization.level.most" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.debugging.level.1360974019" name="Debug Level" superClass="gnu.cpp.compiler.option.debugging.level" value="gnu.cpp.compiler.debugging.level.none" valueType="enumerated"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.cross.c.linker.2046240421" name="Cross GCC Linker" superClass="cdt.managedbuild.tool.gnu.cross.c.linker">
+								<inputType id="cdt.managedbuild.tool.gnu.c.linker.input.113111809" superClass="cdt.managedbuild.tool.gnu.c.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.cross.cpp.linker.48443333" name="Cross G++ Linker" superClass="cdt.managedbuild.tool.gnu.cross.cpp.linker"/>
+							<tool id="cdt.managedbuild.tool.gnu.cross.archiver.1323302331" name="Cross GCC Archiver" superClass="cdt.managedbuild.tool.gnu.cross.archiver"/>
+							<tool id="cdt.managedbuild.tool.gnu.cross.assembler.242388818" name="Cross GCC Assembler" superClass="cdt.managedbuild.tool.gnu.cross.assembler">
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.1753801670" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+						<entry excluding="src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="multi_file_driver_eclipse.cdt.managedbuild.target.gnu.cross.exe.1853264844" name="Executable" projectType="cdt.managedbuild.target.gnu.cross.exe"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.cross.exe.debug.1298837169;cdt.managedbuild.config.gnu.cross.exe.debug.1298837169.;cdt.managedbuild.tool.gnu.cross.c.compiler.1511305691;cdt.managedbuild.tool.gnu.c.compiler.input.1422381322">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.cross.exe.release.1992942964;cdt.managedbuild.config.gnu.cross.exe.release.1992942964.;cdt.managedbuild.tool.gnu.cross.c.compiler.923624830;cdt.managedbuild.tool.gnu.c.compiler.input.734025303">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="refreshScope"/>
+</cproject>
